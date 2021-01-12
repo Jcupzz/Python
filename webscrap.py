@@ -1,3 +1,6 @@
+# This is a program that takes url from csv file using pandas library of python and opens that url in 
+# new tab of default web browser of the OS. It is made to do the web development challenge submission
+# evaluation easier.
 import time
 import pandas as pd;
 import webbrowser
