@@ -24,17 +24,14 @@ df = pd.DataFrame()
 
 for i in range(len(csvlist)):
     df = pd.read_csv(csvlist[i],usecols=collist,skipinitialspace=True)
-    print(df)
+    print(df.iloc[0:21])
 
 # jf = pd.read_csv('jacob.csv',usecols=collist,skipinitialspace=True,) # set path of your csv
 # cf = pd.read_csv('cyril.csv',usecols=collist,skipinitialspace=True) # set path of your csv
 
-
-
-dict = {}
-print(jf.iloc[0:21])
-print("################################################################################")
-print(cf.iloc[0:21])
+#print(jf.iloc[0:21])
+#print("################################################################################")
+#print(cf.iloc[0:21])
 
 
 
